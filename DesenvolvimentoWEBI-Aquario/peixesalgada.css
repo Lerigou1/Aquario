@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+header {
+    border-radius: 5px;
+    height: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    border: 2px solid white;
+    text-align: center;
+}
+button{
+    font-family:'Trebuchet MS';
+    letter-spacing: 2px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    margin: 10px 40px 10px 0px;
+    width: 150px;
+    transition-duration: 0.5s;
+    height: 50px;
+    cursor: pointer;
+}
+button:hover {
+    border: 2px solid black;
+    color: black;
+    background-color:white;
+    scale: 1.05;
+}
+h1 {
+    margin: 30px 10px 10px 10px;
+    color: white;
+    font-family:'Trebuchet MS';
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+ul {
+    list-style-type: none;
+}
