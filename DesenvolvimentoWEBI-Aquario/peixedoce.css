@@ -37,29 +37,42 @@ h1 {
 }
 ul {
     list-style-type: none;
+    padding-left: 10px;
 }
-.primeiro .peixes h2 {
+.primeiro .peixes {
     color: white;
     font-family: 'Trebuchet MS';
     border: 2px solid white;
     border-radius: 5px;
-    margin: 10px 10px 10px 10px;
+    transition: .05s;
 }
-.segundo .peixes h2 {
-    color: white;
-    font-family: 'Trebuchet MS';
-    border: 2px solid white;
-    border-radius: 5px;
+h2 {
+    margin: 20px 10px 20px 20px;
 }
-.primeiro .peixes ul{
+h3 {
+    margin: 10px 10px 10px 50px;
+    text-align: justify;
+}
+.primeiro ul{
     display: inline-flex;
-    justify-content: center;
-}
-.segundo .peixes ul{
-    display: inline-flex;
-    justify-content: center;
 }
 .peixes {
     min-width: 200px;
     max-width: auto;
+}
+.imagem {
+    text-align: center;
+}
+.primeiro img {
+    max-width: 350px;
+    min-width: 0px;
+}
+.imagem img{
+    margin: 20px 10px 20px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.primeiro .peixes:hover {
+    scale: 1.01;
+    display: flex;
 }
