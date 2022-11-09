@@ -37,20 +37,41 @@ h1 {
 }
 ul {
     list-style-type: none;
-    padding-left: 10px;
+    padding-left: 0px;
 }
-.primeiro .peixes {
+.primeiro {
+    list-style:none;
+    float:left;
+}
+.primeiro li {
     color: white;
     font-family: 'Trebuchet MS';
     border: 2px solid white;
     border-radius: 5px;
     transition: .05s;
+    float:left;
+    margin-inline: 0px;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.primeiro li ul {
+    background-color:black;
+    display:none;
+    margin-left: -2px;
+    max-width:max-content;
+    min-width: 300px;
+}
+.primeiro li:hover ul, .primeiro li.over ul{display:block;}
+.primeiro li ul li{
+    position: absolute;
+    background-color: black;
+    width: 400px;
 }
 h2 {
     margin: 20px 10px 20px 20px;
 }
 h3 {
-    margin: 10px 10px 10px 50px;
+    margin: 10px 10px 10px 10px;
     text-align: justify;
 }
 .primeiro ul{
@@ -59,12 +80,13 @@ h3 {
 .peixes {
     min-width: 200px;
     max-width: auto;
+    transition: .5s;
 }
 .imagem {
     text-align: center;
 }
 .primeiro img {
-    max-width: 350px;
+    max-width: 300px;
     min-width: 0px;
 }
 .imagem img{
