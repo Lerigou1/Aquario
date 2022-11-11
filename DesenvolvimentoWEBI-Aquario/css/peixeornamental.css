@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+header {
+    border-radius: 5px;
+    height: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+button{
+    font-family:'Trebuchet MS';
+    letter-spacing: 2px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    margin: 10px 40px 10px 0px;
+    width: 150px;
+    transition-duration: 0.5s;
+    height: 50px;
+    cursor: pointer;
+}
+button:hover {
+    border: 2px solid black;
+    color: black;
+    background-color:white;
+    scale: 1.05;
+}
+h1 {
+    margin: 10px 10px 10px 40px;
+    font-size: 30px;
+    color: white;
+    font-family:'Trebuchet MS';
+    letter-spacing: 3px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+.primeiro {
+    list-style:none;
+    float:left;
+}
+.primeiro li {
+    color: white;
+    background-color: black;
+    font-family: 'Trebuchet MS';
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: .01s;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.primeiro li:hover{
+    border-right: 0px solid white;
+}
+.primeiro li ul {
+    margin-inline: 5px;
+    display:none;
+    max-width:max-content;
+    position:absolute;
+    min-width: 300px;
+    transition: .5s;
+}
+.primeiro li .limpavidro{
+    left:210px;
+    bottom: 80px;
+    position:top;
+}
+.primeiro li .goldfish{
+    left:210px;
+    bottom: 160px;
+    position:absolute;
+}
+.primeiro li .betta{
+    left:210px;
+    bottom: 240px;
+    position:absolute;
+}
+.primeiro li .beijador{
+    left:210px;
+    bottom: 320px;
+    position:absolute;
+}
+.primeiro li .paulistinha{
+    left:210px;
+    bottom: 400px;
+    position:absolute;
+}
+.primeiro li .molinesia{
+    left:210px;
+    bottom: 480px;
+    position:absolute;
+}
+.primeiro li :hover ul, .primeiro li.over ul{display:block; scale: 1.05;}
+.primeiro li ul li{
+    position: absolute;
+    background-color: black;
+    min-width: 500px;
+}
+h2 {
+    margin: 20px 10px 20px 20px;
+}
+h3 {
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+}
+.primeiro ul{
+    display: inline-flex;
+}
+.peixes {
+    min-width: 200px;
+    max-width: auto;
+    transition: .5s;
+}
+.imagem {
+    text-align: center;
+}
+.primeiro img {
+    max-width: 300px;
+    min-width: 0px;
+}
+.imagem img{
+    margin: 20px 10px 20px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.primeiro .peixes:hover {
+    scale: 1.01;
+    display: flex;
+}
