@@ -47,24 +47,13 @@ ul {
 }
 .primeiro li {
     color: white;
-    background-color: white;
+    background-color: black;
     font-family: 'Trebuchet MS';
     border: 2px solid white;
     border-radius: 5px;
     transition: .01s;
     margin-bottom: 10px;
     margin-left: 0;
-}
-.primeiro li h2 {
-    color: black;
-    transition: .5s;
-}
-.primeiro li h2:hover {
-    color:white;
-}
-.primeiro li :hover {
-    border-radius: 5px;
-    background-color: black;
 }
 .primeiro li ul {
     margin-inline: 5px;
@@ -108,7 +97,7 @@ ul {
 .primeiro li ul li{
     position: absolute;
     background-color: black;
-    width: 500px;
+    min-width: 500px;
 }
 h2 {
     margin: 20px 10px 20px 20px;

@@ -8,6 +8,8 @@ header {
     background-color: darkblue;
     border: 2px solid white;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 button{
     font-family:'Trebuchet MS';
@@ -27,16 +29,30 @@ button:hover {
     color: black;
     background-color:white;
     scale: 1.05;
+    margin: 0;
 }
+.butoes{
+    display: inline-flex;
+    margin-inline: 10px;
+    padding-left: 0;
+    align-items: center;
+}
+#bot {
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 200px 0px 200px 40px;
+    background-color: darkblue;
+}
+
 h1 {
-    margin: 30px 10px 10px 10px;
     color: white;
-    font-family:'Trebuchet MS';
+    margin: 10px 10px 10px 40px;
     font-size: 50px;
+    font-family:'Trebuchet MS';
     letter-spacing: 3px;
 }
 h2 {
-    margin: 50px 50px 10px 50px;
+    margin: 0px 10px 10px 10px;
     font-family:'Trebuchet MS';
     color: white;
     font-size: 20px;
@@ -47,15 +63,12 @@ h2 {
     transition: .5s;
 }
 h2:hover{
-    scale: 1.05;
+    scale: 1.01;
     border-radius: 5px;
     border: 2px solid white;
 }
 ul{
     list-style-type: none;
-}
-#butoes{
-    display: inline-flex;
 }
 img {
     width: 700px;
