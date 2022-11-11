@@ -8,6 +8,8 @@ header {
     background-color: darkblue;
     border: 2px solid white;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 button{
     font-family:'Trebuchet MS';
@@ -29,10 +31,10 @@ button:hover {
     scale: 1.05;
 }
 h1 {
-    margin: 30px 10px 10px 10px;
+    margin: 10px 10px 10px 40px;
+    font-size: 30px;
     color: white;
     font-family:'Trebuchet MS';
-    font-size: 50px;
     letter-spacing: 3px;
 }
 ul {

@@ -37,4 +37,105 @@ h1 {
 }
 ul {
     list-style-type: none;
+    padding-left: 0px;
+}
+.primeiro {
+    list-style:none;
+    float:left;
+}
+.primeiro li {
+    color: white;
+    background-color: white;
+    font-family: 'Trebuchet MS';
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: .01s;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.primeiro li h2 {
+    color: black;
+    transition: .5s;
+}
+.primeiro li h2:hover {
+    color:white;
+}
+.primeiro li :hover {
+    border-radius: 5px;
+    background-color: black;
+}
+.primeiro li ul {
+    margin-inline: 5px;
+    display:none;
+    max-width:max-content;
+    position:absolute;
+    min-width: 300px;
+    transition: .5s;
+}
+.primeiro li .baiacu{
+    left:210px;
+    bottom: 80px;
+    position:top;
+}
+.primeiro li .peixeespada{
+    left:210px;
+    bottom: 160px;
+    position:absolute;
+}
+.primeiro li .cavala{
+    left:210px;
+    bottom: 240px;
+    position:absolute;
+}
+.primeiro li .pescada{
+    left:210px;
+    bottom: 320px;
+    position:absolute;
+}
+.primeiro li .olhodecao{
+    left:210px;
+    bottom: 400px;
+    position:absolute;
+}
+.primeiro li .linguado{
+    left:210px;
+    bottom: 480px;
+    position:absolute;
+}
+.primeiro li :hover ul, .primeiro li.over ul{display:block; scale: 1.05;}
+.primeiro li ul li{
+    position: absolute;
+    background-color: black;
+    width: 500px;
+}
+h2 {
+    margin: 20px 10px 20px 20px;
+}
+h3 {
+    margin: 10px 10px 10px 10px;
+    text-align: justify;
+}
+.primeiro ul{
+    display: inline-flex;
+}
+.peixes {
+    min-width: 200px;
+    max-width: auto;
+    transition: .5s;
+}
+.imagem {
+    text-align: center;
+}
+.primeiro img {
+    max-width: 300px;
+    min-width: 0px;
+}
+.imagem img{
+    margin: 20px 10px 20px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.primeiro .peixes:hover {
+    scale: 1.01;
+    display: flex;
 }
